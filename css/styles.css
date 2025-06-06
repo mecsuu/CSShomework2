@@ -1,0 +1,60 @@
+body {
+    background-color: #eee0db;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    
+}
+
+header {
+    background-color: #74cc66;
+}
+
+nav {
+    background-color: #046684;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+}
+
+main {
+    background-color: #74cc66;
+    font-size: 30px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #046684;
+}
+
+li:hover {
+    color: #e2dd3f;
+    font-size: 20px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+li {
+    display: inline;
+    width: 100%;
+    margin-right: 10px
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #0d1b1a;
+}
+
+p {
+    color: #0d1b1a;
+    line-height: 100%;
+}
+
