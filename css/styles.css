@@ -1,43 +1,21 @@
-body {
-    background-color: #eee0db;
-    font-family: 'Trebuchet MS';
-    font-size: 18px;
-    
-}
 
 header {
-    background-color: #74cc66;
-}
-
-nav {
     background-color: #046684;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 15px;
-}
-
-main {
-    background-color: #74cc66;
-    font-size: 30px;
-}
-
-span {
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-footer p a {
-    color:#e2dd3f;
+nav {  
+    width: 80%;
+    display: inline-block;
 }
 
-footer p {
-    color:#FFFACD;
-}
+nav ul{
+    color: #FFFACD;
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
 
-footer {
-    background-color: #046684;
 }
 
 li:hover {
@@ -52,8 +30,44 @@ a:visited {
 li {
     color: #FFFACD;
     display: inline;
-    width: 100%;
-    margin-right: 10px
+}
+
+/* #skip {
+    background-color: rgb(150, 228, 221);
+} */
+
+span {
+    background-color: green;
+}
+
+span img{
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+body {
+    background-color: #eee0db;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    
+}
+
+main {
+    background-color: #74cc66;
+    font-size: 30px;
+}
+
+footer p a {
+    color:#e2dd3f;
+}
+
+footer p {
+    color:#FFFACD;
+}
+
+footer {
+    background-color: #046684;
 }
 
 h1 {
@@ -67,3 +81,20 @@ p {
     line-height: 100%;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grid img{
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
