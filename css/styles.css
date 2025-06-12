@@ -96,3 +96,7 @@ p {
     justify-content: space-around;
     width: 100%;
 }
+
+a {
+    text-decoration: none;
+}
